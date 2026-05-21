@@ -1,1 +1,79 @@
-css here
+/* Container */
+.container{
+    max-width: 500px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+/* Main info */
+.main-infor{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Avatar */
+img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border: 2px solid #333;
+    margin: 10px 0;
+}
+
+/* Headings */
+h1,h2,h3{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* List */
+li{
+    list-style: none;
+    text-align: center;
+    margin: 5px 0;
+}
+
+/* Table */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+/* Link */
+
+table, th, td{
+    border: 1px solid #999;
+}
+
+th{
+    background-color: #4da6ff;
+    color: white;	
+    padding: 10px;
+}
+
+td{
+    padding: 10px;
+    text-align: center;
+}
+
+/* Social button */
+.social{
+    display: inline-block;
+    background-color: #4da6ff;
+    color: white;
+    padding: 10px 18px;
+    margin: 8px;
+    text-decoration: none;
+}
+
+.social:hover{
+    background-color: #0077cc;
+}
+
+/* Link */
+a{
+    text-decoration: none;
+    color: white;
