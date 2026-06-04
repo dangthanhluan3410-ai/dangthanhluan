@@ -1,4 +1,3 @@
-/*viết mã javascript*/
 function printBCC(num)
 {
     let result = "";
